@@ -1,0 +1,15 @@
+.navbar{
+background-color: black;
+}
+#sessao-navbar a{
+    
+    color: blanchedalmond;
+}
+
+@media  screen and (max-width:567px) {
+   #sessao-navbar a {
+    padding-right: 1rem;
+   }
+  
+
+}

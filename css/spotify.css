@@ -1,0 +1,53 @@
+.card h2{
+   font-size: 1.4rem;
+        text-align: left;
+        font-weight: normal;
+        font-family: Helvetica;
+      
+}
+
+.card p{
+    font-size: 1.2rem;
+        text-align: center;
+        font-weight: lighter;
+        
+}
+  
+  
+  .card-wrapper{
+      display: flex;
+      
+  }
+  .card{
+      margin:0.5em;
+      width: 18rem;
+  }
+  
+    
+  @media screen and (max-width:567px){
+      .card-wrapper{
+          display: grid;
+          justify-content: center;
+        }
+        .card-group{
+          display: grid;
+          justify-content: center;
+        }
+  }
+
+#titulo {
+    font-size: 2rem;
+  text-align: center;
+  font-weight: lighter;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
+  input {
+    margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
+  button {
+    margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  }

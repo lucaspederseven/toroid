@@ -1,0 +1,65 @@
+#primeiro-card h2{
+  font-size: 1rem;
+  text-align: center;
+  font-weight: lighter;
+}
+#primeiro-card h3{
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: lighter;
+}
+#primeiro-card h5{
+  font-size: 1rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
+
+
+#primeiro-card .card-info{
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+
+#primeiro-card  h6{
+  font-size: 1rem;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.habilidades{
+  display: flex;
+  
+}
+
+
+#habilidades li{
+  text-align: center;
+  font-weight: lighter;
+  font-size:1rem;
+  text-transform: uppercase;
+}
+
+.card-wrapper{
+    display: flex;
+    
+}
+.card{
+    margin:0.5em;
+    width: 18rem;
+}
+
+  
+@media screen and (max-width:567px){
+    .card-wrapper{
+        display: grid;
+        justify-content: center;
+      }
+      .card-group{
+        display: grid;
+        justify-content: center;
+      }
+}

@@ -1,0 +1,43 @@
+#media h2{
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+
+  #notas h2{
+    font-size: 1.2rem;
+    font-weight: lighter;
+  }
+  h3 {
+    font-size: 2rem;
+    font-weight: lighter;
+  }
+
+  #nota {
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+
+  @media  screen and (max-width:567px) {
+    #areaCalculo {
+        display: grid;
+        justify-content: center;
+    }
+
+    #areaCalculo button {
+
+        margin-top: 1rem;
+        margin-bottom: 0.8rem;
+    }
+    #areaCalculo h6{
+    
+        justify-self: center;
+        
+    }
+    #areaCalculo h5{
+    
+        justify-self: center;
+        
+    }
+
+    
+  }
